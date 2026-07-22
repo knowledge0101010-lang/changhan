@@ -19,3 +19,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---------------------------------------------------------------------------
+ADDITIONAL NOTICE (not part of the MIT grant text above)
+
+This MIT license covers only Changhan's own contributions (Hangul translate
+maps, CLI, examples, and documentation in this repository).
+
+It does NOT grant rights to Huawei Cangjie, the Cangjie SDK, cjc, cjpm,
+stdlib, trademarks, or any upstream materials. Changhan authors are NOT the
+original owners or originators of Cangjie. See NOTICE.md.
