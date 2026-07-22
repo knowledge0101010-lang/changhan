@@ -1,0 +1,5 @@
+[package]
+  name = "changhan_smoke"
+  version = "0.1.0"
+  cjc-version = "1.0.0"
+  output-type = "executable"

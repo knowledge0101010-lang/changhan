@@ -1,0 +1,8 @@
+smoke_proj/target/
+sketches/rust/target/
+sketches/cangjie/target/
+sketches/rust/Cargo.lock
+__pycache__/
+*.pyc
+.DS_Store
+.cursor-grok-out/

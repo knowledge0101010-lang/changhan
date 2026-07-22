@@ -1,0 +1,11 @@
+[package]
+  name = "changhan_host_sketch"
+  version = "0.1.0"
+  description = "Rust host sketch for Changhan translate map"
+  edition = "2021"
+
+[[bin]]
+name = "cjh_sketch"
+path = "src/main.rs"
+
+[dev-dependencies]
