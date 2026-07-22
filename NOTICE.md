@@ -1,43 +1,45 @@
-# 고지 — 화웨이·창제 비소유 · 비공식
+# NOTICE — 창한 (Changhan) · Cangjie programming language (창제)
 
-**프로젝트:** 창한 (Changhan) · `changhan`  
-**성격:** 한글 표면 → 공식 창제 `.cj` **번역 엔진** (독립 실험)
+**Project:** **창한 (Changhan)** · `changhan`  
+**Scope:** Hangul surface → **Cangjie programming language (창제)** `.cj` · **창한 (Changhan)** translate engine
 
 ---
 
 ## 한국어 (필수)
 
-1. **이 저장소의 저작자·기여자는 화웨이(Huawei)가 아니며, 창제(Cangjie) 언어·SDK·상표의 원본 소유자·출처자가 아닙니다.**
-2. **화웨이 공식 제품·파트너·승인 프로젝트가 아닙니다.** 화웨이·창제 브랜드를 사칭하지 않습니다.
-3. **창제 컴파일러(`cjc`/`cjpm`)·SDK·표준 라이브러리의 바이너리·소스를 이 저장소에 넣거나 재배포하지 않습니다.**  
-   실행하려면 이용자가 **별도로** 공식 경로에서 SDK를 받아야 합니다.  
-   공식 안내(링크만, 이 랩이 배포처가 아님): [cangjie-lang.cn](https://cangjie-lang.cn) · [gitcode.com/Cangjie](https://gitcode.com/Cangjie)
-4. **창제 언어 명세·키워드·런타임·라이선스는 상류(화웨이 / 창제 프로젝트)에 귀속**됩니다.  
-   이 저장소가 더하는 것은 **한글↔창제 번역 표·명령줄·예제·문서**뿐이며, 상류 라이선스·약관을 대신하지 않습니다.
-5. 한글 UX를 참고한 **한(Han)** 언어와도 별개입니다. 한 업스트림을 복제·사칭하지 않습니다.
-6. 표절·사칭 의도가 없습니다. 오류 정정은 Issues로 받습니다.
+1. **창한 (Changhan)**은 **Cangjie programming language (창제)**를 대상으로 하는 한글 표면·번역 실험입니다.
+2. 이 저장소의 저작자·기여자는 **Cangjie programming language (창제)**의 원본 소유자·출처자가 아닙니다.
+3. 공식 제품·승인 프로젝트가 아니며, 상류 브랜드를 사칭하지 않습니다.
+4. `cjc` / `cjpm` · SDK · 표준 라이브러리 바이너리·소스를 이 저장소에 넣거나 재배포하지 않습니다.  
+   실행에는 이용자가 공식 경로에서 SDK를 별도로 받아야 합니다.  
+   안내(링크만): [cangjie-lang.cn](https://cangjie-lang.cn) · [gitcode.com/Cangjie](https://gitcode.com/Cangjie)
+5. **Cangjie programming language (창제)** 명세·키워드·런타임·라이선스는 상류 프로젝트에 귀속됩니다.  
+   이 저장소는 **한글 ↔ Cangjie (창제)** 번역 표·CLI·예제·문서만 추가하며, 상류 약관을 대신하지 않습니다.
+6. 한(Han) UX 참고는 별개이며, 한 업스트림을 복제·사칭하지 않습니다.
+7. 표절·사칭 의도 없음. 정정은 Issues.
 
-**한 줄 요약:** 창한은 제3자 한글 표면 실험입니다. **원본 소유·출처는 화웨이/창제 상류**이며, 우리는 그 소유자가 아닙니다.
+**한 줄:** **창한 (Changhan)** = Hangul surface for the **Cangjie programming language (창제)**. Upstream ownership stays upstream.
 
 ---
 
 ## English
 
-**Changhan is not Huawei, not an official Cangjie product, and not the copyright owner or originator of the Cangjie language or SDK.**
+**창한 (Changhan)** targets the **Cangjie programming language (창제)**.  
+**창한 (Changhan)** is not the copyright owner or originator of the Cangjie programming language (창제) or its SDK.
 
-- This repository does not redistribute the Huawei/Cangjie SDK, `cjc`, `cjpm`, or stdlib.
+- This repository does not redistribute the Cangjie (창제) SDK, `cjc`, `cjpm`, or stdlib.
 - Users must obtain the official SDK under upstream terms.
-- This repo only ships a Hangul↔Cangjie **translate surface** (maps, CLI, examples, docs).
-- Upstream Cangjie IP, trademarks, and licenses remain with Huawei / the Cangjie project.
-- Not affiliated with, endorsed by, or sponsored by Huawei.
+- This repo only ships a Hangul↔Cangjie (창제) **translate surface** under the name **창한 (Changhan)** (maps, CLI, examples, docs).
+- Upstream IP, trademarks, and licenses remain with the Cangjie programming language (창제) project.
+- Not an official / endorsed Cangjie (창제) product.
 
-| 이 저장소가 제공하는 것 | 주장하지 않는 것 |
-|-------------------------|------------------|
-| `.cjh` 번역기, 키워드 표, 예제, 검증 스크립트 | 창제 소유권, 화웨이 공식 지위, SDK 재배포 |
+| This repo ships (**창한 / Changhan**) | This repo does not claim |
+|--------------------------------------|--------------------------|
+| `.cjh` translator, keyword map, examples, verify scripts | Ownership of the Cangjie programming language (창제); official status; SDK redistribution |
 
 ---
 
-## 라이선스 관계
+## License relation
 
-- 이 저장소의 코드·문서: [LICENSE](./LICENSE) (MIT) — **창한 자체 기여분에만** 적용
-- 창제 SDK·툴체인: **상류 라이선스** (이 LICENSE로 재라이선스하지 않음)
+- This repository’s code/docs: [LICENSE](./LICENSE) (MIT) — **창한 (Changhan)** contributions only
+- Cangjie programming language (창제) SDK/toolchain: **upstream license** (not re-licensed here)

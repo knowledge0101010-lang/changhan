@@ -1,10 +1,10 @@
 # 창한 (Changhan)
 
-> **고지:** 이 프로젝트는 **화웨이(Huawei) 공식 제품이 아니며**, 창제(Cangjie) 언어·SDK의 **원본 소유자·출처자가 아닙니다.**  
-> SDK·컴파일러를 재배포하지 않습니다. 자세한 내용: [`NOTICE.md`](./NOTICE.md)
+> **Notice:** **창한 (Changhan)** targets the **Cangjie programming language (창제)**.  
+> It is not the upstream owner/originator of Cangjie (창제); the SDK is not redistributed here. See [`NOTICE.md`](./NOTICE.md).
 
-**창한**은 창제 위에 올린 **완전 한글 표면**입니다.  
-한(Han) 언어의 한글 UX를 참고하되, 독립 컴파일러가 아니라 **번역 엔진**으로 공식 창제 소스(`.cj`)를 만듭니다.
+**창한 (Changhan)**은 **Cangjie programming language (창제)** 위에 올린 **완전 한글 표면**입니다.  
+한(Han) 언어의 한글 UX를 참고하되, 독립 컴파일러가 아니라 **번역 엔진**으로 공식 `.cj` 소스를 만듭니다.
 
 ```text
 .cjh (한글)  →  cjh 번역  →  .cj (공식 창제)  →  cjpm build / run
@@ -43,4 +43,4 @@ bash scripts/verify.sh   # 전체 검증
 
 ## 관련
 
-국산 언어 랩 **이도 / 금척**(`geumcheok`)과는 별개입니다. 창한은 **창제 한글 번역 엔진**에 집중합니다.
+국산 언어 랩 **이도 / 금척**(`geumcheok`)과는 별개입니다. **창한 (Changhan)**은 **Cangjie programming language (창제)** 한글 번역 엔진에 집중합니다.
