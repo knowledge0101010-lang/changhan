@@ -1,4 +1,7 @@
-"""창한 번역 엔진 — .cjh (한글 표면) → .cj (공식 창제)."""
+"""창한 번역 엔진 — .cjh(한글 표면) → .cj(공식 창제).
+
+화웨이 공식 제품이 아니며 창제 SDK의 원본 소유자가 아닙니다. NOTICE.md 참고.
+"""
 
 from __future__ import annotations
 
@@ -269,17 +272,17 @@ def _self_test() -> None:
 
 
 def main(argv: list[str] | None = None) -> None:
-    p = argparse.ArgumentParser(prog="cjh", description="창한: 한글→창제 번역 엔진")
+    p = argparse.ArgumentParser(prog="cjh", description="창한: 한글 → 창제 번역 엔진")
     sub = p.add_subparsers(dest="cmd", required=True)
 
-    t = sub.add_parser("translate", help="번역만")
+    t = sub.add_parser("translate", help="번역만 수행")
     t.add_argument("input", type=Path)
     t.add_argument("-o", "--output", type=Path)
 
-    r = sub.add_parser("run", help="번역 후 cjpm run")
+    r = sub.add_parser("run", help="번역 후 cjpm으로 실행")
     r.add_argument("input", type=Path)
 
-    sub.add_parser("test", help="셀프/골든 테스트")
+    sub.add_parser("test", help="자체·골든 테스트")
 
     args = p.parse_args(argv)
     if args.cmd == "translate":

@@ -1,14 +1,14 @@
-# Track 2B — 호스트 = Rust
+# 트랙 2B — 호스트 = 러스트
 
-## CPT
+## 학습
 
-- Han crate: `han-lang` / CLI `hgl` — 참고만 (재클론 없음, 로컬 zodiac-lab/han)
-- 렉서/치환만 필요하면 Rust도 가능하나, 창제 호출 언어 정책과 어긋남
+- 한(Han) 크레이트 구조는 참고만 (재클론 없음)
+- 렉서·치환만이면 러스트도 가능하나, 창제 호출 언어 정책과는 어긋남
 
-## SFT
+## 실습
 
-- [sketches/rust/](../sketches/rust/) — 동일 KEYWORD_MAP CLI 스케치
+- [sketches/rust/](../sketches/rust/) — 동일 키워드 표 CLI 스케치
 
-## VERIFY
+## 검증
 
-- `cargo test` (스케치 crate)
+- `cargo test`

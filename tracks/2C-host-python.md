@@ -1,14 +1,14 @@
-# Track 2C — 호스트 = Python
+# 트랙 2C — 호스트 = 파이썬
 
-## CPT
+## 학습
 
-- 랩 프로토타입: 토큰 치환 + unittest
-- 1A SFT 부트스트랩 (빠른 VERIFY)
+- 랩 프로토타입: 토큰 치환 + 단위 테스트
+- 1A 실습 부트스트랩 (빠른 검증)
 
-## SFT
+## 실습
 
-- sketches/python + 제품 engine/ (동일 KEYWORD_MAP)
+- sketches/python + 제품 `engine/` (같은 키워드 표)
 
-## VERIFY
+## 검증
 
-- python3 -m engine test
+- `python3 -m engine test` / `./cjh test`

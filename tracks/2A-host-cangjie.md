@@ -1,14 +1,14 @@
-# Track 2A — 호스트 = 창제
+# 트랙 2A — 호스트 = 창제
 
-## CPT
+## 학습
 
-- `cjpm` 패키지, `std.fs` / 문자열 IO
-- env: `system/untitled-bridge/envsetup-mac105.sh` (CANGJIE_HOME ≠ Untitled)
+- `cjpm` 패키지, 파일·문자열 입출력
+- SDK: 공식 창제 1.0.5 (`CANGJIE_HOME`)
 
-## SFT
+## 실습
 
-- [sketches/cangjie/](../sketches/cangjie/) — 맵 테이블 + 치환 스케치
+- [sketches/cangjie/](../sketches/cangjie/) — 맵 표 + 치환 자리
 
-## VERIFY
+## 검증
 
-- SDK 1.0.5에서 스케치 빌드 가능 여부 (SCORE에 기록)
+- SDK 1.0.5에서 스케치 빌드·실행 (SCORE에 기록)

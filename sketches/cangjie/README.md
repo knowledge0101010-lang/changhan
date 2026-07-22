@@ -1,14 +1,14 @@
-# 창한 번역 스케치 (창제 호스트)
+# 창한 번역 스케치 (호스트: 창제)
 
-맵은 `spec/KEYWORD_MAP.md`와 동일. 파일 IO + 단순 치환은 `std.fs` / String API로 승격 가능.
+키워드 표는 `spec/KEYWORD_MAP.md`와 같습니다.  
+파일 입출력·단순 치환은 창제 표준 라이브러리로 옮길 자리입니다.
 
 ```cangjie
 package changhan_sketch
 
-// SCORE 채택 시 engine/ 로직을 .cj 로 이식하는 자리
 main() {
     println("changhan sketch host=cangjie")
 }
 ```
 
-VERIFY: `cjpm build` in this folder after copying to a cjpm package (see smoke_proj pattern).
+검증: 이 폴더에서 `cjpm build` / `cjpm run` (공식 SDK 필요).

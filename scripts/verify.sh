@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
-# 창한 전체 VERIFY
+# 창한 전체 검증
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
-echo "== engine test =="
+echo "== 엔진 테스트 =="
 python3 -m engine test
 
-echo "== python sketch =="
+echo "== 파이썬 스케치 =="
 python3 sketches/python/sketch.py
 
-echo "== rust sketch =="
+echo "== 러스트 스케치 =="
 (cd sketches/rust && cargo test -q)
 
 if [[ -f ../../system/untitled-bridge/envsetup-mac105.sh ]]; then
@@ -22,15 +22,15 @@ if [[ -n "${CANGJIE_HOME:-}" ]]; then
 fi
 
 if command -v cjpm >/dev/null 2>&1; then
-  echo "== cangjie sketch =="
+  echo "== 창제 스케치 =="
   (cd sketches/cangjie && rm -rf target && cjpm build && cjpm run)
-  echo "== examples =="
+  echo "== 예제 =="
   for f in examples/*.cjh; do
     echo "-- $f"
     python3 -m engine run "$f"
   done
 else
-  echo "WARN: cjpm not on PATH — skipped cangjie/example runs"
+  echo "경고: PATH에 cjpm 없음 — 창제·예제 실행 생략"
 fi
 
 echo "FULL_OK"

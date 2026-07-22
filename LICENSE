@@ -21,11 +21,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ---------------------------------------------------------------------------
-ADDITIONAL NOTICE (not part of the MIT grant text above)
+추가 고지 (위 MIT 본문과 별개)
 
-This MIT license covers only Changhan's own contributions (Hangul translate
-maps, CLI, examples, and documentation in this repository).
+이 MIT 라이선스는 창한 저장소의 자체 기여(한글 번역 표, CLI, 예제, 문서)에만
+적용됩니다.
 
-It does NOT grant rights to Huawei Cangjie, the Cangjie SDK, cjc, cjpm,
-stdlib, trademarks, or any upstream materials. Changhan authors are NOT the
-original owners or originators of Cangjie. See NOTICE.md.
+화웨이 창제, 창제 SDK, cjc, cjpm, 표준 라이브러리, 상표 및 상류 자료에 대한
+권리를 부여하지 않습니다. 창한 기여자는 창제의 원본 소유자·출처자가 아닙니다.
+NOTICE.md를 참고하십시오.
+

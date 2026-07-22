@@ -1,23 +1,23 @@
-# Track 1B — 독립 컴파일러 (대조 학습 · SHIP 금지)
+# 트랙 1B — 독립 컴파일러 (대조 학습 · 출시 금지)
 
-## CPT
+## 학습
 
-Han `vendor/claude-science/zodiac-lab/han/src/`:
+한(Han) 컴파일러 파이프라인 (로컬 `zodiac-lab/han/src/` 참고):
 
 | 모듈 | 역할 |
 |------|------|
-| lexer.rs | 한글 키워드 토큰 |
-| parser.rs | AST |
-| typechecker.rs | 타입 |
-| interpreter/ | 즉시 실행 |
-| codegen/ | LLVM IR |
+| lexer | 한글 키워드 토큰 |
+| parser | 구문 나무 |
+| typechecker | 타입 검사 |
+| interpreter | 바로 실행 |
+| codegen | LLVM IR |
 
-## SFT (메모만)
+## 실습 (메모만)
 
-- 범위: 렉서→파서→타입→인터프리터→LLVM = 수개월급
-- 창제 ABI/`cjc`와 단절 → Harmony/cjpm 생태계 재사용 불가
-- 에러 메시지 한글화는 컴파일러 소유 시 자연스럽지만, 우리는 번역+창제 진단 위임
+- 범위: 렉서→파서→타입→인터프리터→LLVM = 장기 작업
+- 창제 ABI·`cjc`와 끊김 → Harmony/`cjpm` 생태계를 그대로 쓰기 어려움
+- 한글 오류 메시지는 자체 컴파일러면 자연스럽지만, 창한은 번역 후 창제 진단에 맡김
 
-## RL
+## 검증
 
-**SHIP 금지.** dossier 학습만. 제품 우회(독립 컴파일러 배포) 불가.
+**출시 금지.** 대조 문서 학습만. 독립 컴파일러를 제품으로 우회 배포하지 않음.
